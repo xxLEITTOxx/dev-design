@@ -1,0 +1,124 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  /* background-color: #fff; */
+  color: #ffda4f;
+  background: #282727;
+}
+img {
+  display: block;
+  object-fit: contain;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.logo-header {
+  padding: 0;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.page-header {
+  background: #282727;
+  /* border: solid 2px tomato; */
+  border-bottom: solid 2px aqua;
+}
+
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.menu-header-link {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #ffda4f;
+  padding: 24px 0;
+  position: relative;
+}
+
+.menu-header {
+  display: flex;
+  gap: 40px;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-link-active::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  height: 4px;
+  background-color: #ffda4f;
+  border-radius: 2px;
+
+  bottom: 15px;
+}
+
+.header-media {
+  display: flex;
+}
+
+.header-media a {
+  text-decoration: none;
+  color: #ffda4f;
+  display: block;
+  padding: 24px 0;
+}
+
+.hero {
+  border: solid 2px tomato;
+  padding: 108px 0;
+}
+
+.hero-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero-text {
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.important-hero-text {
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: antiquewhite;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
