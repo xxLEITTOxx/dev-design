@@ -122,3 +122,8 @@ button {
   margin-bottom: 20px;
   font-size: 20px;
 }
+
+.portfolio {
+  background-color: #282828;
+  border: solid 2px tomato;
+}
