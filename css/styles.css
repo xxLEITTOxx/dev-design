@@ -354,28 +354,50 @@ button {
 
 .contact-container {
   display: flex;
+  position: relative;
+}
+
+.contact-about {
+  padding-right: 30px;
 }
 
 .contact-about-text {
   margin-bottom: 15px;
   color: #f9f9f9;
+  width: 80%;
 }
 .form-container,
 .contact-about {
   width: 50%;
 }
 
-.user-name-input {
-  background-color: #ffda4f;
+.form-container::before {
+  content: "";
+  width: 4px;
+  position: absolute;
+  left: 50%;
+  height: 100%;
+  background-color: #f9f9f9;
+  border-radius: 2px;
 }
 
 .name-input,
 .phone-input {
   text-align: right;
+  padding-bottom: 16px;
+}
+
+.user-phone-input,
+.user-name-input {
+  width: 80%;
+  background-color: #ffda4f;
+  border-radius: 4px;
+  outline: transparent;
+  padding: 8px 16px;
 }
 
 .comment-input {
-  width: 70%;
+  width: 80%;
   font-weight: 400;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
